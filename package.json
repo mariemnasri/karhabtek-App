@@ -13,11 +13,20 @@
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
     "@types/react-redux": "^7.1.7",
+    "@types/react-responsive": "^8.0.4",
+    "@types/styled-components": "^5.1.15",
+    "autoprefixer": "^9.8.8",
+    "postcss": "^7.0.39",
     "react": "^17.0.2",
+    "react-burger-menu": "^3.0.6",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.0",
+    "react-responsive": "^9.0.0-beta.4",
     "react-scripts": "4.0.3",
+    "styled-components": "^5.3.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
     "tailwindcss-cli": "^0.1.2",
+    "twin.macro": "^2.8.0",
     "typescript": "~4.1.5"
   },
   "scripts": {
@@ -42,9 +51,6 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.3.7",
-    "postcss": "^8.3.9",
-    "postcss-loader": "^6.2.0",
-    "tailwindcss": "^2.2.17"
+    "postcss-loader": "^6.2.0"
   }
 }
