@@ -72,7 +72,7 @@ import {
   
   const DailyPrice = styled.h5`
     ${tw`
-      text-red-500
+      text-gray-500
       font-bold
       text-sm
       mr-3
@@ -81,7 +81,7 @@ import {
   
   const MonthlyPrice = styled.h5`
     ${tw`
-      text-gray-500
+      text-red-500
       font-bold
       text-sm
     `};
@@ -146,11 +146,11 @@ export function Car(props:ICarProps){
       <CarName>{name}</CarName>
       <PricesContainer>
         <DailyPrice>
-          ${dailyPrice}
+          {dailyPrice}DT
           <SmallText>/Jour</SmallText>
         </DailyPrice>
         <MonthlyPrice>
-          ${monthlyPrice}
+          {monthlyPrice}DT
           <SmallText>/Mois</SmallText>
         </MonthlyPrice>
       </PricesContainer>

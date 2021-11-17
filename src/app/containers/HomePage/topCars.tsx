@@ -52,27 +52,45 @@ export function TopCars(){
         name: "Audi S3 ",
         mileage:" 10K",
         thumbnailSrc:"https://w7.pngwing.com/pngs/475/362/png-transparent-audi-sportback-concept-car-audi-a3-sportback-2015-audi-s3-audi-compact-car-sedan-car.png",
-        dailyPrice: 70,
-        monthlyPrice :1600,
-        gearType:"Auto",
-        gas:"Petrol"
+        dailyPrice: 150,
+        monthlyPrice :3800,
+        gearType:"Manuelle",
+        gas:"Essence"
     }
 
     const testCar2 :ICar ={
-        name: "Audi A4 ",
-        mileage:" 10K",
-        thumbnailSrc:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.guideautoweb.com%2Fconstructeurs%2Faudi%2Fa4%2F2020%2Fspecifications%2F45-tfsi-technik%2F&psig=AOvVaw2RMRv-mguF9WroPT_-3S4y&ust=1635981314809000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCJiRgbvn-vMCFQAAAAAdAAAAABAU",
-        dailyPrice: 70,
-        monthlyPrice :1600,
-        gearType:"Auto",
-        gas:"Petrol"
+        name: "Clio diesel ",
+        mileage:" 9K",
+        thumbnailSrc:"https://www.automobile-magazine.fr/asset/cms/840x394/186332/config/134647/renault-clio-e-tech-limited-2021.webp?webp=1",
+        dailyPrice: 120,
+        monthlyPrice :3200,
+        gearType:"Manuelle",
+        gas:"Essence"
     }
-
+    const testCar3 :ICar ={
+      name: "Kia picanto",
+      mileage:" 50K",
+      thumbnailSrc:"https://www.auto-plus.tn/assets/modules/newcars/kia/picanto/couverture/kia_picanto.jpg",
+      dailyPrice: 80,
+      monthlyPrice :2100,
+      gearType:"Manuelle",
+      gas:"Essence"
+  }
+  const testCar4 :ICar ={
+    name: "Citroen C3",
+    mileage:" 120K",
+    thumbnailSrc:"https://www.auto-plus.tn/assets/modules/newcars/citroen/c3/couverture/citroen-c3.jpg",
+    dailyPrice: 80,
+    monthlyPrice :2000,
+    gearType:"Manuelle",
+    gas:"Essence"
+}
     const cars =[ 
-      <Car {...testCar1} />,
+      <Car {...testCar3} />,
       <Car {...testCar2} />,
+      <Car {...testCar3} />,
       <Car {...testCar1} />,
-      <Car {...testCar2} />,
+      <Car {...testCar4} />,
       <Car {...testCar1} />
     ]
 

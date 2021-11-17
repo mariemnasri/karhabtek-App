@@ -160,7 +160,7 @@ export function TopSection(){
         </Description>
         <ButtonsContainer>
           <Button text="Reservez votre voiture "/>
-          <Button theme="filled" text="Vendez votre voiture "/>
+          <Button theme="filled" text="Voir toutes nos offres"/>
         </ButtonsContainer>
     </LeftContainer>
     <RightContainer>

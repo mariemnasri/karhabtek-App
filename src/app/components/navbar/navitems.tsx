@@ -5,6 +5,8 @@ import {slide  as Menu} from 'react-burger-menu';
 import {useMediaQuery} from "react-responsive"
 import { SCREENS } from '../responsive/index';
 import menuStyles from './menuStyles';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUserAlt } from '@fortawesome/free-solid-svg-icons';
 const ListContainer = styled.ul`
     ${tw`
       flex
@@ -35,6 +37,7 @@ const NavItem = styled.li<{ menu?:any }>`
         focus:text-white`}
     `};
 `;
+
 
 export function NavItems(){
 
@@ -72,6 +75,10 @@ export function NavItems(){
         </NavItem>
         <NavItem>
             <a href="#">Contact</a>
+        </NavItem>
+        <NavItem>
+            <a href="#" >
+            <FontAwesomeIcon icon={faUserAlt}/></a>
         </NavItem>
     </ListContainer>
     );
